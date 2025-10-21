@@ -132,7 +132,7 @@ section::after{
 }
 
 a:link{
-    color: #99c2ff;
+    color: #80b3ff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -147,11 +147,11 @@ a:hover{
 }
 
 a:active{
-    color: #b3d1ff;
+    color: #ffffff;
 }
 
 .highlight{
-    background-color: #99c2ff;
+    background-color: #80b3ff;
     color: #000033;
     padding: 2px 5px;
     border-radius: 4px;
@@ -174,11 +174,73 @@ hr{
     margin: 40px 0;
 }
 
-@media (max-width: 1325px){
+@media (max-width: 1200px){
+    body{
+        background: linear-gradient(to bottom right, #5daefa, #2f7fc5, #0f4d77, #000013);
+        color: #e8f6ff;
+    }
+
+    h1{
+        background: linear-gradient(to bottom, #5daefa, #2f7fc5, #0f4d77, #000013);
+        color: #ffffff;
+    }
+
+    h2{ 
+        color: #b8e4ff; 
+    }
+
+    h3{ 
+        color: #cde8ff; 
+        border-bottom-color: #7bc8ff;
+        border-left: 8px solid #7bc8ff;
+        border-bottom: 2px solid #7bc8ff;
+    }
+
+    p{ 
+        color: #e4f5ff; 
+        background-color: rgba(255,255,255,0.06);
+    }
+
+    a{
+        color: #7bc8ff;
+    }
+
+    a:link {
+        color: #7bc8ff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:visited {
+        color: #7bc8ff;
+    }
+
+    a:hover{
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    .highlight{
+        background-color: #7bc8ff;
+        color: #001f33;
+    }
+
+    h3{
+        border-bottom-color: #7bc8ff;
+    }
+
+    #sidebar{ 
+        background-color: rgba(93,174,250,0.1); 
+    }
+
+    section{ 
+        background-color: rgba(93,174,250,0.1); 
+    }
+
     section{
         flex-direction: column;
         text-align: center;
         align-items: center;
+        max-width: 100%;
     }
 
     h3{
@@ -194,6 +256,7 @@ hr{
         display: block;
         margin: 0 auto 20px auto;
         width: 70%;
+        max-width: 100%;
     }
 
     p{
@@ -204,16 +267,81 @@ hr{
 }
 
 @media (max-width: 992px){
+    body{
+        background: linear-gradient(to bottom right, #5dfae5, #2fc5b3, #0d775f, #000013);
+        color: #e9fffb;
+    }
+
+    h1{
+        background: linear-gradient(to bottom, #5dfae5, #2fc5b3, #0d775f, #000013);
+        color: #ffffff;
+    }
+
+    h2{ 
+        color: #b9fff4; 
+    }
+
+    h3{ 
+        color: #c9fff7; 
+        border-bottom-color: #7bffe9;
+        border-left: 8px solid #7bffe9;
+        border-bottom: 2px solid #7bffe9;
+    }
+
+    p{ 
+        color: #e4fffa; 
+        background-color: rgba(255,255,255,0.06);
+    }
+
+    a{
+        color: #7bffe9;
+    }
+
+    a:link {
+        color: #7bffe9;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:visited {
+        color: #7bffe9;
+    }
+
+    a:hover{
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    .highlight{
+        background-color: #7bffe9;
+        color: #001f2b;
+    }
+
+    h3{
+        border-bottom-color: #7bffe9;
+    }
+
+
+    #sidebar{ 
+        background-color: rgba(93,250,229,0.1); 
+    }
+
+    section{ 
+        background-color: rgba(93,250,229,0.1); 
+    }
+
     #sidebar{
         float: none;
         width: 90%;
         margin: 20px auto;
+        max-width: 100%;
     }
 
     section{
         flex-direction: column;
         text-align: center;
         align-items: center;
+        max-width: 100%;
     }
 
     h3{
@@ -229,6 +357,7 @@ hr{
         display: block;
         margin: 0 auto 20px auto;
         width: 70%;
+        max-width: 100%;
     }
 
     p{
@@ -239,9 +368,73 @@ hr{
 }
 
 @media (max-width: 768px){
+    body{
+        background: linear-gradient(to bottom right, #5dfa65, #2fc52f, #0d770d, #000013);
+        color: #eaffea;
+    }
+
+    h1{
+        background: linear-gradient(to bottom, #5dfa65, #2fc52f, #0d770d, #000013);
+        color: #ffffff;
+    }
+
+    h2{ 
+        color: #caffc9; 
+    }
+
+    h3{ 
+        color: #dbffd9; 
+        border-bottom-color: #8bff8b;
+        border-left: 8px solid #8bff8b;
+        border-bottom: 2px solid #8bff8b;
+    }
+
+    p{ 
+        color: #ecffe9; 
+        background-color: rgba(255,255,255,0.06);
+    }
+
+    a{
+        color: #8bff8b;
+    }
+
+    a:link {
+        color: #8bff8b;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:visited {
+        color: #8bff8b;
+    }
+    
+    a:hover{
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    .highlight{
+        background-color: #8bff8b;
+        color: #002200;
+    }
+
+    h3{
+        border-bottom-color: #8bff8b;
+    }
+
+
+    #sidebar{ 
+        background-color: rgba(93,250,101,0.1); 
+    }
+
+    section{ 
+        background-color: rgba(93,250,101,0.1); 
+    }
+
     #container{
         width: 95%;
         padding: 20px;
+        max-width: 100%;
     }
 
     h1{
@@ -261,12 +454,14 @@ hr{
         display: block;
         margin: 0 auto 20px auto;
         width: 90%;
+        max-width: 100%;
     }
 
     section{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        max-width: 100%;
     }
 
     h3{
